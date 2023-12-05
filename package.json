@@ -1,0 +1,56 @@
+{
+  "name": "nextjs-blog-cms-sanity-v3",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "format": "npx prettier --write . --ignore-path .gitignore --cache",
+    "lint": "next lint -- --ignore-path .gitignore",
+    "lint:fix": "npm run format && npm run lint -- --fix",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@portabletext/react": "3.0.11",
+    "@sanity/client": "6.9.1",
+    "@sanity/image-url": "1.0.2",
+    "@sanity/overlays": "2.0.4",
+    "@sanity/preview-url-secret": "1.2.1",
+    "@sanity/vision": "3.20.2",
+    "@vercel/og": "0.5.20",
+    "classnames": "2.3.2",
+    "date-fns": "2.30.0",
+    "intl-segmenter-polyfill": "0.4.4",
+    "next": "14.0.3",
+    "next-sanity": "7.0.0",
+    "next-sanity-image": "6.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sanity": "3.20.2",
+    "sanity-plugin-asset-source-unsplash": "1.1.2",
+    "sanity-plugin-iframe-pane": "3.1.2",
+    "styled-components": "6.1.1",
+    "swr": "2.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.39",
+    "@types/styled-components": "5.1.32",
+    "autoprefixer": "10.4.16",
+    "eslint": "8.54.0",
+    "eslint-config-next": "14.0.3",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "postcss": "8.4.31",
+    "prettier": "3.1.0",
+    "prettier-plugin-packagejson": "2.4.6",
+    "prettier-plugin-tailwindcss": "0.5.7",
+    "tailwindcss": "3.3.5",
+    "typescript": "5.3.2"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
