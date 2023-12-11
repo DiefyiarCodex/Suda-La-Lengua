@@ -27,12 +27,12 @@ export default function Alert({
     >
       <Container>
         <div className="py-2 text-center text-sm">
-          {'Previewing drafts. '}
+          {'Suda la lengua 2014v-2023 '}
           <a
             href="/api/disable-draft"
             className="underline transition-colors duration-200 hover:text-cyan"
           >
-            Back to published
+            Versiones en nextjs
           </a>
         </div>
       </Container>
