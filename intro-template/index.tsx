@@ -81,10 +81,10 @@ export default memo(function IntroTemplate() {
               element={
                 <div>
                   <div className="col-span-2 mb-2 mt-1 font-semibold">
-                    Create content with Sanity Studio
+                    create for Subjet Anonymous Massive / Bits & Arts / SAMba LAb
                   </div>
                   <div className="text-xs text-gray-700">
-                    Your Sanity Studio is deployed at
+                    DGRcodex
                     <Link
                       className="mx-1 underline hover:text-blue-800"
                       href={studioURL}
@@ -98,7 +98,7 @@ export default memo(function IntroTemplate() {
                       className="inline-flex rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-800"
                       href={createPostURL}
                     >
-                      Go to Sanity Studio
+                      conoce Sambalab  
                     </Link>
                   </div>
                 </div>
@@ -230,7 +230,7 @@ const RemoveBlock = ({ url }) => (
     target="_blank"
     rel="noreferrer"
   >
-    How to remove this block?
+
   </a>
 )
 
