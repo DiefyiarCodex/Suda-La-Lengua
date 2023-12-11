@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { memo, useEffect, useState } from 'react'
 
-import cover from './cover.png'
+import suda from './suda.png'
 
 export default memo(function IntroTemplate() {
   const [studioURL, setStudioURL] = useState(null)
@@ -42,7 +42,7 @@ export default memo(function IntroTemplate() {
         <div className="self-center">
           <Image
             alt="An illustration of a browser window, a terminal window, the Sanity.io logo and the NextJS logo"
-            src={cover}
+            src={suda}
           />
           <div className="mt-10 hidden px-14 text-xs text-gray-700 md:block">
             <RemoveBlock url={removeBlockURL} />
