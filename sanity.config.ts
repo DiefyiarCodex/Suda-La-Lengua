@@ -8,7 +8,7 @@ import {
   dataset,
   DRAFT_MODE_ROUTE,
   projectId,
-} from 'lib/sanity.api'
+} from 'lib/sanity.api.ts'
 import { locate } from 'plugins/locate'
 import { previewDocumentNode } from 'plugins/previewPane'
 import { settingsPlugin, settingsStructure } from 'plugins/settings'
